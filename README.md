@@ -1,18 +1,13 @@
  Notion MCP Terminal
 A powerful natural language interface for Notion that allows you to interact with your workspace using plain English commands. Powered by local AI and direct Notion API integration.
 
-https://img.shields.io/badge/Notion-API%2520Integration-blue?logo=notion
-https://img.shields.io/badge/AI-Ollama-orange?logo=ollama
-https://img.shields.io/badge/Python-3.8%252B-green?logo=python
-
-🚀 Features
+ 
+Features
 Natural Language Processing - Interact with Notion using everyday language
 
 Local AI Processing - Uses Ollama models (completely private & free)
 
 Real Notion Operations - Create, list, search, and read pages
-
-Privacy-First - All data stays on your machine
 
 Cost Effective - No API fees or cloud costs
 
