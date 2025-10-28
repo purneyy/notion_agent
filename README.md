@@ -15,53 +15,6 @@ Cost Effective - No API fees or cloud costs
 Prerequisites
 Python 3.8+
 
-Ollama installed
-
-Notion account with integration access
-
-Installation
-Clone the repository
-
-bash
-git clone <your-repo-url>
-cd notion_agent
-Create virtual environment
-
-bash
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
-Install dependencies
-
-bash
-pip install -r requirements.txt
-Set up Ollama
-
-bash
-# Install Ollama from https://ollama.ai/
-# Then download a model:
-ollama pull llama3.2:3b
-Configure Notion Integration
-
-Go to Notion Integrations
-
-Create new integration named "MCP Terminal"
-
-Copy the "Internal Integration Token"
-
-Share your Notion pages with the integration
-
-Create environment file
-
-bash
-cp .env.example .env
-Edit .env:
-
-env
-NOTION_API_KEY=your_integration_token_here
-NOTION_PAGE_ID=your_default_page_id_here  # Optional
-Usage
-bash
-python agent.py
 💬 Example Commands
 "show me all my pages" - List all accessible pages
 
